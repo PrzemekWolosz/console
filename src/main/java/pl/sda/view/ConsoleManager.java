@@ -46,7 +46,7 @@ public class ConsoleManager {
                 break;
             case '2':
                 employeeManager.addEmployee();
-
+                break;
         }
     }
 
