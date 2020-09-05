@@ -43,7 +43,7 @@ public class EmployeeManager {
         System.out.println("Type birth year");
         int birthYear = s.nextInt();
 
-        employees.add(new Employee(employees.size()+1L,firstName,lastName,position,salary,birthYear));
+        employees.add(new Employee((long) employees.size(),firstName,lastName,position,salary,birthYear));
     }
 
 }
