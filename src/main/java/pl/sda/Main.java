@@ -10,6 +10,5 @@ public class Main {
         ConsoleManager consoleManager = new ConsoleManager();
         consoleManager.start();
 
-        System.out.println("aaa");
     }
 }
